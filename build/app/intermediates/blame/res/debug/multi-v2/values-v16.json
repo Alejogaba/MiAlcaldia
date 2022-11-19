@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Universidad\\Herramientas Practicas\\Ejemplos\\Login Android\\LoginFirebaseAuthGoogle-main\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\luisf\\.gradle\\wrapper\\dists\\gradle-4.10.1\\caches\\transforms-2\\files-2.1\\a1dc2ad808d0380b3a2a579c102f03c7\\core-1.6.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Universidad\\Herramientas Practicas\\Ejemplos\\Login Android\\AlcaldiaParaTodos\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\luisf\\.gradle\\wrapper\\dists\\gradle-4.10.1\\caches\\transforms-3\\b23bf7e78679ed1545a65444e09c6baa\\transformed\\core-1.6.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

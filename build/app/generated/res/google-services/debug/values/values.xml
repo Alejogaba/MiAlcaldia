@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1063866205906-1a7k07fq43qct362lph1junqn22eehse.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1063866205906</string>
+    <string name="google_api_key" translatable="false">AIzaSyC7vrKjZsLKSQJQErQ4zgJuIllFRyIOaUk</string>
+    <string name="google_app_id" translatable="false">1:1063866205906:android:c854c1d99a1c51d5790f0b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC7vrKjZsLKSQJQErQ4zgJuIllFRyIOaUk</string>
+    <string name="google_storage_bucket" translatable="false">betaalcaldia.appspot.com</string>
+    <string name="project_id" translatable="false">betaalcaldia</string>
+</resources>

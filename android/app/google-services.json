@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1063866205906",
+    "project_id": "betaalcaldia",
+    "storage_bucket": "betaalcaldia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063866205906:android:c854c1d99a1c51d5790f0b",
+        "android_client_info": {
+          "package_name": "com.example.carrito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063866205906-1a7k07fq43qct362lph1junqn22eehse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7vrKjZsLKSQJQErQ4zgJuIllFRyIOaUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063866205906-1a7k07fq43qct362lph1junqn22eehse.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1063866205906-7clmien2rl66bd9phsg1s51rm34uml9t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.betalcaldia.com"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
