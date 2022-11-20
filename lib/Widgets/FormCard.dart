@@ -1,7 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_signin_button/button_list.dart';
+import 'package:flutter_signin_button/button_view.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_state_manager/src/simple/get_state.dart';
+
+import '../controllers/login_controller.dart';
 
 class FormCard extends StatelessWidget {
+  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+   final controller = Get.put(LoginController());
   @override
   Widget build(BuildContext context) {
     return new Container(
@@ -20,7 +30,12 @@ class FormCard extends StatelessWidget {
                 offset: Offset(0.0, -10.0),
                 blurRadius: 10.0),
           ]),
-      child: Padding(
+      child: GetBuilder<LoginController>(
+        init: LoginController(),
+        builder: (_) {
+          return SingleChildScrollView(
+             
+             child: Padding(
         padding: EdgeInsets.only(left: 16.0, right: 16.0, top: 16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -37,11 +52,18 @@ class FormCard extends StatelessWidget {
                 style: TextStyle(
                     fontFamily: "Poppins-Medium",
                     fontSize: ScreenUtil().setSp(26))),
-            TextField(
-              decoration: InputDecoration(
+              TextFormField(
+                decoration: InputDecoration(
                   hintText: "username",
                   hintStyle: TextStyle(color: Colors.grey, fontSize: 12.0)),
-            ),
+                        controller: controller.emailController,
+                        
+                        validator: (String value) {
+                          if (value.isEmpty)
+                            return 'Por favor, introduzca un texto';
+                          return null;
+                        },
+                      ),
             SizedBox(
               height: ScreenUtil().setHeight(30),
             ),
@@ -49,16 +71,28 @@ class FormCard extends StatelessWidget {
                 style: TextStyle(
                     fontFamily: "Poppins-Medium",
                     fontSize: ScreenUtil().setSp(26))),
-            TextField(
-              obscureText: true,
-              decoration: InputDecoration(
+            TextFormField(
+                        controller: controller.passwordController,
+                        keyboardType: TextInputType.number,
+                        inputFormatters: <TextInputFormatter>[
+                          FilteringTextInputFormatter.allow(RegExp(r'[0-9]')),
+                        ],
+                        decoration: InputDecoration(
                   hintText: "Password",
                   hintStyle: TextStyle(color: Colors.grey, fontSize: 12.0)),
-            ),
+                        validator: (String value) {
+                          if (value.isEmpty)
+                            return 'Por favor ingrese algún texto o números';
+                          return null;
+                        },
+                        obscureText: true,
+                      ),
+                   
             SizedBox(
               height: ScreenUtil().setHeight(35),
             ),
             Row(
+              
               mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
                 Text(
@@ -67,12 +101,27 @@ class FormCard extends StatelessWidget {
                       color: Colors.blue,
                       fontFamily: "Poppins-Medium",
                       fontSize: ScreenUtil().setSp(28)),
+                      
                 )
               ],
+            
             )
           ],
+          
         ),
+        
+        
+      ),
+      
+       
+          );
+          
+        },
       ),
     );
+    
   }
+  
+  
+  
 }

@@ -10,12 +10,17 @@ import '../Widgets/FormCard.dart';
 import '../Widgets/SocialIcons.dart';
 
 class LoginPage extends StatefulWidget {
+  final controller = Get.put(LoginController());
+  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
   @override
   _LoginPageState createState() => new _LoginPageState();
 }
 
 class _LoginPageState extends State<LoginPage> {
   bool _isSelected = false;
+  final controller = Get.put(LoginController());
+  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
   void _radio() {
     setState(() {
@@ -112,7 +117,7 @@ class _LoginPageState extends State<LoginPage> {
                             onTap: _radio,
                             child: radioButton(_isSelected),
                           ),
-                           SizedBox(
+                          SizedBox(
                             width: 8.0,
                           ),
                           Text("Recuerdame",
@@ -122,8 +127,8 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       InkWell(
                         child: Container(
-                          width: ScreenUtil().setWidth(330),
-                          height: ScreenUtil().setHeight(100),
+                          width: ScreenUtil().setWidth(280),
+                          height: ScreenUtil().setHeight(70),
                           decoration: BoxDecoration(
                               gradient: LinearGradient(colors: [
                                 Color(0xFF17ead9),
@@ -136,19 +141,28 @@ class _LoginPageState extends State<LoginPage> {
                                     offset: Offset(0.0, 8.0),
                                     blurRadius: 8.0)
                               ]),
-                          child: Material(
-                            color: Colors.transparent,
-                            child: InkWell(
-                              onTap: () {},
-                              child: Center(
-                                child: Text("SIGNIN",
-                                    style: TextStyle(
-                                        color: Colors.white,
-                                        fontFamily: "Poppins-Bold",
-                                        fontSize: 18,
-                                        letterSpacing: 1.0)),
-                              ),
-                            ),
+                          child: GetBuilder<LoginController>(
+                            init: LoginController(),
+                            builder: (_) {
+                              return SingleChildScrollView(
+                                child: Material(
+                                  color: Colors.transparent,
+                                  child: InkWell(
+                                    onTap: () {
+                                      _.signInWithEmailAndPassword();
+                                    },
+                                    child: Center(
+                                      child: Text("LOGIN",
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontFamily: "Poppins-Bold",
+                                              fontSize: 18,
+                                              letterSpacing: 1.0)),
+                                    ),
+                                  ),
+                                ),
+                              );
+                            },
                           ),
                         ),
                       )
@@ -161,7 +175,7 @@ class _LoginPageState extends State<LoginPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       horizontalLine(),
-                      Text("Social Login",
+                      Text("Ingresar con",
                           style: TextStyle(
                               fontSize: 16.0, fontFamily: "Poppins-Medium")),
                       horizontalLine()
@@ -215,12 +229,12 @@ class _LoginPageState extends State<LoginPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Text(
-                        "New User? ",
+                        "Nuevo usuario? ",
                         style: TextStyle(fontFamily: "Poppins-Medium"),
                       ),
                       InkWell(
                         onTap: () {},
-                        child: Text("SignUp",
+                        child: Text("Registrate",
                             style: TextStyle(
                                 color: Color(0xFF5d74e3),
                                 fontFamily: "Poppins-Bold")),
