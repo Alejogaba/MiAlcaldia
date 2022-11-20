@@ -24,6 +24,7 @@ dependencies:
   google_sign_in: ^4.5.5
   firebase_auth: ^0.18.2
   flutter_signin_button: ^1.1.0
+  flutter_screenutil: ^5.6.0
   
 
 dev_dependencies:
@@ -46,6 +47,10 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+   - assets/image_01.png
+   - assets/image_02.png
+   - assets/logoo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -69,6 +74,31 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/CustomIcons.ttf
+
+    - family: Poppins-Bold
+      fonts:
+        - asset: assets/Poppins-Bold.ttf
+        
+
+    - family: Poppins-Medium
+      fonts:
+        - asset: assets/Poppins-Medium.ttf   
+    
+    - family: ITCEDSCR
+      fonts:
+        - asset: assets/ITCEDSCR.ttf 
+    
+    - family: BERNHC
+      fonts:
+        - asset: assets/BERNHC.ttf 
+
+        
+
+        
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

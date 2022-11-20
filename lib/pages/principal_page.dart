@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:MiAlcaldia/controllers/login_controller.dart';
 import 'package:get/get.dart';
 
-class FoodPage extends StatelessWidget {
+class PrincipalPage extends StatelessWidget {
   final controller = Get.put(LoginController());
 
   @override
