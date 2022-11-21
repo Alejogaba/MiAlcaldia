@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Universidad\\Herramientas Practicas\\Ejemplos\\Login Android\\AlcaldiaParaTodos\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
+            "outputFile": "E:\\Universidad\\Alcaldia Para Todos\\Commit 2\\AlcaldiaParaTodos\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
             "map": [
                 {
                     "source": "C:\\Users\\luisf\\.gradle\\wrapper\\dists\\gradle-4.10.1\\caches\\transforms-3\\a8d69a211d469b2fdf78d124e09560e0\\transformed\\jetified-play-services-base-17.1.0\\res\\values-te\\values.xml",

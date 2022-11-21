@@ -12,7 +12,7 @@ routes() => [
       GetPage(name: "/loginpage", page: () => LoginPage()),
       GetPage(name: "/logingoogle", page: () => LoginPage()),
       GetPage(
-          name: "/foodpage",
+          name: "/principalpage",
           page: () => PrincipalPage(),
           transition: Transition.zoom),
     ];

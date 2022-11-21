@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Universidad\\Herramientas Practicas\\Ejemplos\\Login Android\\AlcaldiaParaTodos\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
+            "outputFile": "E:\\Universidad\\Alcaldia Para Todos\\Commit 2\\AlcaldiaParaTodos\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
             "map": [
                 {
                     "source": "C:\\Users\\luisf\\.gradle\\wrapper\\dists\\gradle-4.10.1\\caches\\transforms-3\\b23bf7e78679ed1545a65444e09c6baa\\transformed\\core-1.6.0\\res\\values-ru\\values-ru.xml",

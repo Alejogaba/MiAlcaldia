@@ -31,7 +31,7 @@ class LoginRegisterController extends GetxController {
       Future.delayed(
         Duration(seconds: 2),
         () {
-          Get.toNamed("/foodpage");
+          Get.toNamed("/principalpage");
         },
       );
       userEmail = user.email;

@@ -12,8 +12,8 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 15-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\eaae3c5be854d2b2550aac5fcfc0f251\transformed\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:23:5-79
 15-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\eaae3c5be854d2b2550aac5fcfc0f251\transformed\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:23:22-76
@@ -80,25 +80,25 @@
 71            android:value="2" />
 72
 73        <service
-73-->[:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+73-->[:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
 74            android:name="com.google.firebase.components.ComponentDiscoveryService"
-74-->[:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
+74-->[:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
 75            android:directBootAware="true"
 75-->[com.google.firebase:firebase-common:19.3.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\89828166a1aa026833b95ec823a8fefa\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
 76            android:exported="false" >
 76-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\a9e293634b618416227570565a122451\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:35:13-37
 77            <meta-data
-77-->[:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+77-->[:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
 78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-78-->[:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+78-->[:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
 79                android:value="com.google.firebase.components.ComponentRegistrar" />
-79-->[:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+79-->[:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
 80            <meta-data
-80-->[:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+80-->[:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
 81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-81-->[:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+81-->[:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
 82                android:value="com.google.firebase.components.ComponentRegistrar" />
-82-->[:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+82-->[:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
 83            <meta-data
 83-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\a9e293634b618416227570565a122451\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:36:13-38:85
 84                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Universidad\\Herramientas Practicas\\Ejemplos\\Login Android\\AlcaldiaParaTodos\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "E:\\Universidad\\Alcaldia Para Todos\\Commit 2\\AlcaldiaParaTodos\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\luisf\\.gradle\\wrapper\\dists\\gradle-4.10.1\\caches\\transforms-3\\908289773149be90effa626e7aa4b5bf\\transformed\\jetified-play-services-auth-16.0.1\\res\\values-watch-v20\\values.xml",

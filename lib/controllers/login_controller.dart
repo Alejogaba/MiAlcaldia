@@ -26,7 +26,7 @@ class LoginController extends GetxController {
       Future.delayed(
         Duration(seconds: 2),
         () {
-          Get.toNamed("/foodpage");
+          Get.toNamed("/principalpage");
         },
       );
     } catch (e) {
@@ -54,7 +54,7 @@ class LoginController extends GetxController {
     Get.toNamed("/home");
   }
 
-   //signOutGoogle
+  //signOutGoogle
   Future<void> signOutGoogle() async {
     await googleUser.signOut();
 
@@ -91,7 +91,7 @@ class LoginController extends GetxController {
       Future.delayed(
         Duration(seconds: 2),
         () {
-          Get.toNamed("/foodpage");
+          Get.toNamed("/principalpage");
         },
       );
     } catch (e) {

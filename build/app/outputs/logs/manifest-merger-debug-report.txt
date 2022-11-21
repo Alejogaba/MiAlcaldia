@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 application
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:8:5-46:19
-MERGED from [:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:8:5-46:19
+MERGED from [:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\a8711541aafeb789cf5ca40e0d1003d6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\a8711541aafeb789cf5ca40e0d1003d6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.firebase:firebase-core:17.5.1] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\d263ac1bb53fa9569a98abf0d8b33905\transformed\jetified-firebase-core-17.5.1\AndroidManifest.xml:7:5-20
@@ -50,16 +50,16 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lu
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\b23bf7e78679ed1545a65444e09c6baa\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
-MERGED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
-MERGED from [:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:google_sign_in] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+ADDED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from [:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:google_sign_in] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\161d008804c6be16341c77ca048667d4\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\a8711541aafeb789cf5ca40e0d1003d6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.firebase:firebase-core:17.5.1] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\d263ac1bb53fa9569a98abf0d8b33905\transformed\jetified-firebase-core-17.5.1\AndroidManifest.xml:2:1-9:12
@@ -104,33 +104,33 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\luisf\.gradl
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\6d97979086f706797321a9f87ed8774e\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\07f24edf3b0ba5d16d88286b44a4deac\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\4c560d43040cf6f86d428dd6612b891e\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:2:5-34
-		INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
+		ADDED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:2:5-34
+		INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
-		INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
+		INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
-		INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
+		INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
-MERGED from [:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
+MERGED from [:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\161d008804c6be16341c77ca048667d4\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\161d008804c6be16341c77ca048667d4\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\a8711541aafeb789cf5ca40e0d1003d6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
@@ -219,18 +219,18 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\luisf\.gradle\wrapper\dists\gr
 MERGED from [androidx.print:print:1.0.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\07f24edf3b0ba5d16d88286b44a4deac\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\4c560d43040cf6f86d428dd6612b891e\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\4c560d43040cf6f86d428dd6612b891e\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
-INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
+INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
+		INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
+		INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:6:5-66
-MERGED from [:google_sign_in] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
-MERGED from [:google_sign_in] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
+ADDED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:6:5-66
+MERGED from [:google_sign_in] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\google_sign_in\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\eaae3c5be854d2b2550aac5fcfc0f251\transformed\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\eaae3c5be854d2b2550aac5fcfc0f251\transformed\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\7573ef602040060b0c16467e460af15e\transformed\jetified-firebase-installations-16.3.2\AndroidManifest.xml:11:5-67
@@ -242,11 +242,11 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\1089be2c73750c25d5aa88b7ebe290ef\transformed\jetified-play-services-measurement-sdk-api-17.6.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\1089be2c73750c25d5aa88b7ebe290ef\transformed\jetified-play-services-measurement-sdk-api-17.6.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\android\app\src\debug\AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\a9e293634b618416227570565a122451\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\a9e293634b618416227570565a122451\transformed\jetified-firebase-auth-19.4.0\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\eaae3c5be854d2b2550aac5fcfc0f251\transformed\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:27:9-33:19
@@ -262,19 +262,19 @@ MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\luisf\.gradle\
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\89828166a1aa026833b95ec823a8fefa\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
+		ADDED from [:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_auth] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] E:\Universidad\Herramientas Practicas\Ejemplos\Login Android\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] E:\Universidad\Alcaldia Para Todos\Commit 2\AlcaldiaParaTodos\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\luisf\.gradle\wrapper\dists\gradle-4.10.1\caches\transforms-3\a8711541aafeb789cf5ca40e0d1003d6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required
