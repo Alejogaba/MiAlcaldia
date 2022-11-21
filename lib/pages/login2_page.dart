@@ -6,6 +6,7 @@ import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:get/get.dart';
 
 import '../controllers/login_controller.dart';
+import '../routes/routes.dart';
 
 class Login2Page extends StatelessWidget {
   final controller = Get.put(LoginController());
@@ -70,7 +71,8 @@ class Login2Page extends StatelessWidget {
                           Buttons.Email,
                           text: "Ingresar",
                           onPressed: () async {
-                            _.signInWithEmailAndPassword();
+                            Navigator.pushNamed(context, AppRoutes.ROUTE_Home);
+                            //_.signInWithEmailAndPassword();
                           },
                         ),
                       ),
@@ -81,7 +83,7 @@ class Login2Page extends StatelessWidget {
                           Buttons.GoogleDark,
                           text: "Google",
                           onPressed: () async {
-                            _.signInWithGoogle();
+                            _.signInWithGoogle(context);
                           },
                         ),
                       ),

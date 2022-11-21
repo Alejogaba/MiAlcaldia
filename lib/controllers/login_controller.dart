@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
+import '../routes/routes.dart';
+
 class LoginController extends GetxController {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
@@ -71,7 +73,7 @@ class LoginController extends GetxController {
   }
 
   //Example code of how to sign in with Google.
-  void signInWithGoogle() async {
+  void signInWithGoogle(BuildContext context) async {
     try {
       UserCredential userCredential;
 
@@ -91,7 +93,7 @@ class LoginController extends GetxController {
       Future.delayed(
         Duration(seconds: 2),
         () {
-          Get.toNamed("/principalpage");
+          Navigator.pushNamed(context, AppRoutes.ROUTE_Home);
         },
       );
     } catch (e) {

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Universidad\\Alcaldia Para Todos\\Commit 2\\AlcaldiaParaTodos\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "C:\\Users\\OFITIC\\Downloads\\AlcaldiaParaTodos\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\luisf\\.gradle\\wrapper\\dists\\gradle-4.10.1\\caches\\transforms-3\\908289773149be90effa626e7aa4b5bf\\transformed\\jetified-play-services-auth-16.0.1\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\OFITIC\\.gradle\\caches\\transforms-3\\c4fee1cbf18c544b6e68118799508462\\transformed\\jetified-play-services-auth-16.0.1\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

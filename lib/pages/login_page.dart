@@ -8,6 +8,7 @@ import 'package:get/get.dart';
 import '../CustomIcons.dart';
 import '../Widgets/FormCard.dart';
 import '../Widgets/SocialIcons.dart';
+import '../routes/routes.dart';
 
 class LoginPage extends StatefulWidget {
   final controller = Get.put(LoginController());
@@ -149,7 +150,8 @@ class _LoginPageState extends State<LoginPage> {
                                   color: Colors.transparent,
                                   child: InkWell(
                                     onTap: () {
-                                      _.signInWithEmailAndPassword();
+                                      Navigator.pushNamed(context, AppRoutes.ROUTE_Home);
+                                      //_.signInWithEmailAndPassword();
                                     },
                                     child: Center(
                                       child: Text("LOGIN",
@@ -203,7 +205,7 @@ class _LoginPageState extends State<LoginPage> {
                         ],
                         iconData: CustomIcons.googlePlus,
                         onPressed: () async {
-                          LoginController().signInWithGoogle();
+                          LoginController().signInWithGoogle(context);
                         },
                       ),
                       SocialIcon(
