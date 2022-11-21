@@ -202,7 +202,9 @@ class _LoginPageState extends State<LoginPage> {
                           Color(0xFFff355d),
                         ],
                         iconData: CustomIcons.googlePlus,
-                        onPressed: () {},
+                        onPressed: () async {
+                          LoginController().signInWithGoogle();
+                        },
                       ),
                       SocialIcon(
                         colors: [
@@ -233,7 +235,9 @@ class _LoginPageState extends State<LoginPage> {
                         style: TextStyle(fontFamily: "Poppins-Medium"),
                       ),
                       InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          Get.toNamed("/registration");
+                        },
                         child: Text("Registrate",
                             style: TextStyle(
                                 color: Color(0xFF5d74e3),

@@ -40,7 +40,7 @@ class FormCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text("Login",
+            Text("Iniciar Session",
                 style: TextStyle(
                     fontSize: ScreenUtil().setSp(45),
                     fontFamily: "Poppins-Bold",
@@ -48,13 +48,13 @@ class FormCard extends StatelessWidget {
             SizedBox(
               height: ScreenUtil().setHeight(30),
             ),
-            Text("Username",
+            Text("Correo",
                 style: TextStyle(
                     fontFamily: "Poppins-Medium",
                     fontSize: ScreenUtil().setSp(26))),
               TextFormField(
                 decoration: InputDecoration(
-                  hintText: "username",
+                  hintText: "Email",
                   hintStyle: TextStyle(color: Colors.grey, fontSize: 12.0)),
                         controller: controller.emailController,
                         
@@ -67,7 +67,7 @@ class FormCard extends StatelessWidget {
             SizedBox(
               height: ScreenUtil().setHeight(30),
             ),
-            Text("PassWord",
+            Text("Contraseña",
                 style: TextStyle(
                     fontFamily: "Poppins-Medium",
                     fontSize: ScreenUtil().setSp(26))),
@@ -96,7 +96,7 @@ class FormCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
                 Text(
-                  "Forgot Password?",
+                  "¿Has olvidado tu contraseña?",
                   style: TextStyle(
                       color: Colors.blue,
                       fontFamily: "Poppins-Medium",
